@@ -180,7 +180,7 @@ export const MoviesPage: React.FC<MoviesPageProps> = ({
 
             <select
               value={sortBy}
-              onChange={(e) => setSortBy(e.target.value as any)}
+              onChange={(e) => setSortBy(e.target.value as 'rating' | 'newest' | 'title')}
               className="px-3 py-1.5 rounded-xl glass-input text-xs text-white bg-[#0e121c]"
             >
               <option value="rating" className="bg-[#10131B]">Top Rated</option>

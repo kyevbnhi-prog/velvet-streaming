@@ -247,7 +247,7 @@ export const SearchPage: React.FC<SearchPageProps> = ({
             <label className="block text-xs font-mono text-zinc-400 mb-1.5">SORT BY</label>
             <select
               value={sortBy}
-              onChange={(e) => setSortBy(e.target.value as any)}
+              onChange={(e) => setSortBy(e.target.value as 'relevance' | 'newest' | 'rating' | 'title')}
               className="w-full px-3 py-2 rounded-xl glass-input text-xs text-white bg-[#0e121c]"
             >
               <option value="relevance" className="bg-[#10131B]">Relevance</option>

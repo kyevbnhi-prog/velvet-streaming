@@ -1,0 +1,8 @@
+{
+  "name": "VELVET",
+  "description": "Ultra-dark luxury Video-on-Demand (VOD) and Live TV streaming web app with modern Liquid Glass aesthetics and cinematic visuals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
